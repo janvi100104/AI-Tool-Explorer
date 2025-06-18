@@ -2,7 +2,7 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "target": "ES2022",
-    "lib": ["ES2023"],
+    "lib": ["ES2022"],
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -20,7 +20,8 @@
     "noImplicitReturns": false,
     "noImplicitThis": false,
     "noPropertyAccessFromIndexSignature": false,
-    "exactOptionalPropertyTypes": false
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["vite.config.ts"],
   "exclude": ["node_modules"]

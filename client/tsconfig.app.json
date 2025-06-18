@@ -26,7 +26,8 @@
     "noImplicitReturns": false,
     "noImplicitThis": false,
     "noPropertyAccessFromIndexSignature": false,
-    "exactOptionalPropertyTypes": false
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
