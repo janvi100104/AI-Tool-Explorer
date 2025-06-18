@@ -2,7 +2,6 @@
 
 A comprehensive full-stack web application for browsing, filtering, and favoriting AI tools. Built with Express.js backend and React frontend with modern UI components.
 
-![AI Tool Explorer](https://placeholder-for-screenshot.png)
 
 > 🌟 **Last Updated**: June 18, 2025
 
@@ -68,6 +67,13 @@ The application allows users to browse a curated list of AI tools, filter them b
 - Node.js 18+ and Bun (or npm/yarn)
 - Git
 
+### Clone the Repository
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/ai-tool-explorer.git
+cd AI\ Tool\ Explorer
+```
+
 ### Backend Setup
 ```bash
 # Navigate to backend directory
@@ -75,9 +81,13 @@ cd ai-tools-backend
 
 # Install dependencies
 bun install
+# OR if using npm
+npm install
 
 # Start the server (runs on port 3001)
 bun run index.ts
+# OR if using npm
+npx tsx index.ts
 ```
 
 ### Frontend Setup
@@ -87,10 +97,19 @@ cd client
 
 # Install dependencies
 bun install
+# OR if using npm
+npm install
 
 # Start development server
 bun dev
+# OR if using npm
+npm run dev
 ```
+
+### Accessing the Application
+- Frontend: [http://localhost:5173](http://localhost:5173) or [http://localhost:5174](http://localhost:5174)
+- Backend API: [http://localhost:3001/api](http://localhost:3001/api)
+- API Documentation: [http://localhost:3001](http://localhost:3001)
 
 ## 🗂 Project Structure
 
@@ -107,7 +126,11 @@ AI Tool Explorer/
 │   │   ├── App.tsx         # Main application with all components
 │   │   ├── api.ts          # API service functions
 │   │   ├── types.ts        # TypeScript interfaces
+│   │   ├── main.tsx        # Application entry point
+│   │   ├── index.css       # Global styles
+│   │   ├── demo-data.ts    # Fallback data for offline mode
 │   │   └── components/ui/  # ShadCN UI components
+│   ├── public/             # Static assets
 │   ├── package.json        # Frontend dependencies
 │   ├── vite.config.ts      # Build configuration
 │   └── README.md           # Frontend documentation
