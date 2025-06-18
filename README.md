@@ -2,6 +2,10 @@
 
 A comprehensive full-stack web application for browsing, filtering, and favoriting AI tools. Built with Express.js backend and React frontend with modern UI components.
 
+![AI Tool Explorer](https://placeholder-for-screenshot.png)
+
+> 🌟 **Last Updated**: June 18, 2025
+
 ## 📋 Project Overview
 
 AI Tool Explorer consists of two main components:
